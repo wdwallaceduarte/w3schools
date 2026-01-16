@@ -1,11 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Git Flow</title>
 </head>
 <body>
-    
+    <h1>Git Flow </h1>
+    <h2>O que é?</h2>
+    <p>
+        O Git Flow é um modelo, uma estratégia ou, ainda, um fluxo de trabalho muito utilizado por equipes de desenvolvimento de softwares. <strong>Ele se destaca por auxiliar na organização do versionamento de códigos.</strong>
+    </p>
+    <p>
+        O objetivo do Git Flow era melhorar as organizações das <em>Branches (ramificações)</em> dentro de repositórios e, desta forma, dar mais fluidez ao processo de desenvolvimento de novas funcionalidades, correções de bugs e lançamentos de versões.
+    </p>
+    <h2>Quando utilizar o Git Flow?</h2>
+    <p>
+        O Git Flow é recomendado para <strong>projetos que utilizam versionamento semântico (semantic versioning)</strong> ou que precisam oferecer suporte a várias versões de seu software. 
+    </p>
+    <p>
+        Segundo o autor, se o projeto exige entrega contínua, como normalmente ocorre em projetos, este modelo não é recomendado para esse tipo de cenário. <br>
+        Porque geralmente com o Git Flow são geradas Branches de longa duração e branches de longa duração atrapalham a entrega contínua.
+    </p>
+    <p>
+        A utilização do Git Flow também se torna recomendado para projetos que existem uma grande quantidade de pessoas "commitando" dentro de um repositório, ou para projetos que possuem um ciclo de entrega agendada.
+    </p>
+    <h2>Como funciona o Git Flow?</h2>
+    <p>
+        O Git Flow trabalha com duas branches principais, a Develop e a Master, que duram para sempre; e três branches de suporte, Feature, Release, e Hotfix, que são temporários e duram até realizar o merge com as branches principais.
+    </p>
+    <p>
+        Então, ao invés de uma única branch Master, esse fluxo de trabalho utiliza duas branches principais para registrar o historico do projeto. A branch Master armazena o histórico do lançamento oficial, e a branch Develop serve como uma ramificação de integração para recursos.
+    </p>
+    <p>
+        É idela que todos os commits na branch Master sejam marcados com um número de versão. 
+    </p>
+    <h2>Branch Master/Main</h2>
+    <p>
+        Principal branch, aqui é onde temos todo o código de produção. Todas as novas funcionalidades que estõa sendo desenvolvidas, em algum momento, serão mescladas ou associadas a Materl. As formas de interari com essa branch são através de uma Hotfix ou de uma nova Release.
+    </p>
+    <h2>Branch Develop</h2>
+    <p>
+        É a branch onde fica o código do próximo deplay. Ela serve como uma linha do tempo com os últimos desenvolvimentos, isso significa que ela possui funcionalidades que ainda não foram publicadas e qua posteriormente vão ser associadas com a branch Master.
+    </p>
+    <h2>Branch Feature</h2>
+    <p>
+        São branches utilizadas para o desenvolvimento de funcionalidades especificas. É recomendável que essas branches sigam uma convenção de nome, a convenção mais utilizada é iniciar o nome das branches com feature, por exemplo, "feature/wall-forum".
+    </p>
 </body>
 </html>
