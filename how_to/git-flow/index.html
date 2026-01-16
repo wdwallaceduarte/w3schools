@@ -3,19 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>SideBar</title>
+    <title>Git Flow</title>
 </head>
 <body>
-    <div class="sidenav">
-        <a href="#sobre">Sobre</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#clientes">Clientes</a>
-        <a href="#contato">Contato</a>
-    </div>
-
-    <div class="menu">
-          <h1>Git Flow </h1>
+    <h1>Git Flow </h1>
     <h2>O que é?</h2>
     <p>
         O Git Flow é um modelo, uma estratégia ou, ainda, um fluxo de trabalho muito utilizado por equipes de desenvolvimento de softwares. <strong>Ele se destaca por auxiliar na organização do versionamento de códigos.</strong>
@@ -44,7 +35,17 @@
     <p>
         É idela que todos os commits na branch Master sejam marcados com um número de versão. 
     </p>
-    </div>
-
+    <h2>Branch Master/Main</h2>
+    <p>
+        Principal branch, aqui é onde temos todo o código de produção. Todas as novas funcionalidades que estõa sendo desenvolvidas, em algum momento, serão mescladas ou associadas a Materl. As formas de interari com essa branch são através de uma Hotfix ou de uma nova Release.
+    </p>
+    <h2>Branch Develop</h2>
+    <p>
+        É a branch onde fica o código do próximo deplay. Ela serve como uma linha do tempo com os últimos desenvolvimentos, isso significa que ela possui funcionalidades que ainda não foram publicadas e qua posteriormente vão ser associadas com a branch Master.
+    </p>
+    <h2>Branch Feature</h2>
+    <p>
+        São branches utilizadas para o desenvolvimento de funcionalidades especificas. É recomendável que essas branches sigam uma convenção de nome, a convenção mais utilizada é iniciar o nome das branches com feature, por exemplo, "feature/wall-forum".
+    </p>
 </body>
 </html>
