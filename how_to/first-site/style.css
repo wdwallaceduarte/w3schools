@@ -85,7 +85,7 @@ body {
 .footer {
     padding: 20px;
     text-align: center;
-    background-color: #ddd;
+    background: #ddd;
 }
 
 /* Layout responsivo - quando a tela tiver menos de 700px de largura, faça com que as duas colunas se empilhem uma sobre a outra em vez de ficar lado a lado */
